@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to bottom left, #f9d4fd, #d5f4f6);
+    
+}
+
+@media(max-width:460px){ //this is for mobile view 
+.box{
+    width: 90%;
+    height: 90%;
+    // background-color: aqua;
+    box-shadow: 1px 5px 10px 5px rgba(0, 0, 0, 0.281) ;
+    border-radius: 10px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    #box1{
+        width: 100%;
+        height: 50%;
+        background-color: rgb(233, 36, 207);
+
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    #box2{
+        width: 100%;
+        height: 50%;
+        // background-color: rgb(236, 30, 30);
+        position: relative;
+
+        #top{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            #image{
+                img{
+                    margin-top: 3%;
+                    width: 20%;
+                }
+            }
+            h1{
+                font-size: 1rem;
+            }
+            h4{
+                font-size: 0.5rem;
+            }
+        }
+
+        #form{
+
+            position: absolute;
+            top:35%;
+            left: 15%;
+
+            #checklb1{
+                font-size: 0.6rem;
+            }
+            label{
+                font-size: 0.5rem;
+            }
+            input{
+                border: none;
+                outline:none;
+                background-color:transparent;
+                font-size: 1rem;
+                border-bottom: 1px solid #e53ff7;
+            }
+
+            #buttons{
+                :hover{
+                    background-color:#e53ff7;
+                    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.281) ;
+                }
+                #btn2{
+                    position: absolute;
+                    left: 50%;
+                }
+
+                #btn3{
+                    position: absolute;
+                    left: 50%;
+                }
+                button{
+                    border: none;
+                    width: 3rem;
+                    height:1.0rem;
+                    color: white;
+                    background-color: rgb(238, 159, 245);
+                    border-radius: 2px;
+                }
+            }
+        }
+
+
+    }
+
+}
+
+}
+
+
+
+@media(min-width:700px){  //this is for PC view 
+    .box{
+        width: 80%;
+        height: 80%;
+        // background-color: aqua;
+        box-shadow: 1px 5px 10px 1px rgba(0, 0, 0, 0.281) ;
+        border-radius: 7px;
+    
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+    
+        #box1{
+            width: 50%;
+            height: 100%;
+            // background-color: rgb(233, 36, 207);
+
+            img{
+                width: 100%;
+                height: 100%;
+
+            }
+        }
+        #box2{
+            width: 50%;
+            height: 100%;
+            // background-color: rgb(236, 30, 30);
+            position: relative;
+
+            #top{
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+
+                #image{
+                    img{
+                        margin-top: 2%;
+                        width: 20%;
+                    }
+                }
+                h1{
+                    font-size: 1.2rem;
+                }
+                h4{
+                    font-size: 0.5rem;
+                    color: grey;
+                }
+            }
+            #form{
+                position: absolute;
+                top:40%;
+                left: 15%;
+    
+                #checklb1{
+                    font-size: 0.6rem;
+                }
+                label{
+                    font-size: 1rem;
+                }
+                input{
+                    border: none;
+                    outline:none;
+                    background-color:transparent;
+                    font-size: 1rem;
+                    border-bottom: 1px solid #e53ff7;
+                }
+
+                #buttons{
+                    :hover{
+                        background-color:#e53ff7;
+                        box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.281) ;
+                    }
+                    #btn2{
+                        position: absolute;
+                        left: 50%;
+                    }
+
+                    #btn3{
+                        position: absolute;
+                        left: 50%;
+                    }
+                    button{
+                        border: none;
+                        width: 3rem;
+                        height:1.0rem;
+                        color: white;
+                        background-color: rgb(238, 159, 245);
+                        border-radius: 2px;
+                    }
+                }
+
+            }
+        }
+    
+    }
+}

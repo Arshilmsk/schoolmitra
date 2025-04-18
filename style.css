@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to bottom left, #f9d4fd, #d5f4f6);
+}
+
+@media (max-width: 460px) {
+  .box {
+    width: 90%;
+    height: 90%;
+    box-shadow: 1px 5px 10px 5px rgba(0, 0, 0, 0.281);
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .box #box1 {
+    width: 100%;
+    height: 50%;
+    background-color: rgb(233, 36, 207);
+  }
+  .box #box1 img {
+    width: 100%;
+    height: 100%;
+  }
+  .box #box2 {
+    width: 100%;
+    height: 50%;
+    position: relative;
+  }
+  .box #box2 #top {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .box #box2 #top #image img {
+    margin-top: 3%;
+    width: 20%;
+  }
+  .box #box2 #top h1 {
+    font-size: 1rem;
+  }
+  .box #box2 #top h4 {
+    font-size: 0.5rem;
+  }
+  .box #box2 #form {
+    position: absolute;
+    top: 35%;
+    left: 15%;
+  }
+  .box #box2 #form #checklb1 {
+    font-size: 0.6rem;
+  }
+  .box #box2 #form label {
+    font-size: 0.5rem;
+  }
+  .box #box2 #form input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 1rem;
+    border-bottom: 1px solid #e53ff7;
+  }
+  .box #box2 #form #buttons :hover {
+    background-color: #e53ff7;
+    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.281);
+  }
+  .box #box2 #form #buttons #btn2 {
+    position: absolute;
+    left: 50%;
+  }
+  .box #box2 #form #buttons #btn3 {
+    position: absolute;
+    left: 50%;
+  }
+  .box #box2 #form #buttons button {
+    border: none;
+    width: 3rem;
+    height: 1rem;
+    color: white;
+    background-color: rgb(238, 159, 245);
+    border-radius: 2px;
+  }
+}
+@media (min-width: 700px) {
+  .box {
+    width: 80%;
+    height: 80%;
+    box-shadow: 1px 5px 10px 1px rgba(0, 0, 0, 0.281);
+    border-radius: 7px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+  }
+  .box #box1 {
+    width: 50%;
+    height: 100%;
+  }
+  .box #box1 img {
+    width: 100%;
+    height: 100%;
+  }
+  .box #box2 {
+    width: 50%;
+    height: 100%;
+    position: relative;
+  }
+  .box #box2 #top {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .box #box2 #top #image img {
+    margin-top: 2%;
+    width: 20%;
+  }
+  .box #box2 #top h1 {
+    font-size: 1.2rem;
+  }
+  .box #box2 #top h4 {
+    font-size: 0.5rem;
+    color: grey;
+  }
+  .box #box2 #form {
+    position: absolute;
+    top: 40%;
+    left: 15%;
+  }
+  .box #box2 #form #checklb1 {
+    font-size: 0.6rem;
+  }
+  .box #box2 #form label {
+    font-size: 1rem;
+  }
+  .box #box2 #form input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 1rem;
+    border-bottom: 1px solid #e53ff7;
+  }
+  .box #box2 #form #buttons :hover {
+    background-color: #e53ff7;
+    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.281);
+  }
+  .box #box2 #form #buttons #btn2 {
+    position: absolute;
+    left: 50%;
+  }
+  .box #box2 #form #buttons #btn3 {
+    position: absolute;
+    left: 50%;
+  }
+  .box #box2 #form #buttons button {
+    border: none;
+    width: 3rem;
+    height: 1rem;
+    color: white;
+    background-color: rgb(238, 159, 245);
+    border-radius: 2px;
+  }
+}/*# sourceMappingURL=style.css.map */
